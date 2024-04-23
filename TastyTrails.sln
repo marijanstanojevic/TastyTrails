@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.Domain", "TastyTrails.Domain\TastyTrails.Domain.csproj", "{65C72662-9689-42F4-ACA1-3F353BB43856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42231C20-0EAB-4679-B50C-D354F66061C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.Infrastructure", "TastyTrails.Infrastructure\TastyTrails.Infrastructure.csproj", "{05DECDA5-2F28-4EC8-8C68-632006958C50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.API", "TastyTrails.API\TastyTrails.API.csproj", "{15AD3550-2895-414D-9995-ECDC23F695B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.Application", "TastyTrails.Application\TastyTrails.Application.csproj", "{44E06130-7D1C-464F-A468-60FC55A1C17D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{37C7EA93-4ADE-4956-BB3F-A164F44237D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.Common", "..\TastyTrails.Common\TastyTrails.Common.csproj", "{B86A7BCE-D4F1-4B3C-86ED-A29736D1CF31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C72662-9689-42F4-ACA1-3F353BB43856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C72662-9689-42F4-ACA1-3F353BB43856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C72662-9689-42F4-ACA1-3F353BB43856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C72662-9689-42F4-ACA1-3F353BB43856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DECDA5-2F28-4EC8-8C68-632006958C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DECDA5-2F28-4EC8-8C68-632006958C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DECDA5-2F28-4EC8-8C68-632006958C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DECDA5-2F28-4EC8-8C68-632006958C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AD3550-2895-414D-9995-ECDC23F695B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AD3550-2895-414D-9995-ECDC23F695B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AD3550-2895-414D-9995-ECDC23F695B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AD3550-2895-414D-9995-ECDC23F695B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E06130-7D1C-464F-A468-60FC55A1C17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E06130-7D1C-464F-A468-60FC55A1C17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E06130-7D1C-464F-A468-60FC55A1C17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E06130-7D1C-464F-A468-60FC55A1C17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C7EA93-4ADE-4956-BB3F-A164F44237D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C7EA93-4ADE-4956-BB3F-A164F44237D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C7EA93-4ADE-4956-BB3F-A164F44237D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C7EA93-4ADE-4956-BB3F-A164F44237D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86A7BCE-D4F1-4B3C-86ED-A29736D1CF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86A7BCE-D4F1-4B3C-86ED-A29736D1CF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86A7BCE-D4F1-4B3C-86ED-A29736D1CF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86A7BCE-D4F1-4B3C-86ED-A29736D1CF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8193E54-0317-440E-92DF-B8EB7752342B}
+	EndGlobalSection
+EndGlobal

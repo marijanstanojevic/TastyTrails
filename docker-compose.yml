@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  tastytrails.api:
+    image: ${DOCKER_REGISTRY-}tastytrailsapi
+    build:
+      context: .
+      dockerfile: TastyTrails.API/Dockerfile
+  tastytrails.mssql:
+    container_name: TastyTrails.MSSQL_Database.DEV
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: always
+    environment:
+        ACCEPT_EULA: "Y"
+        MSSQL_SA_PASSWORD: "SA_DEV_PASSWORD"
+        MSSQL_PID: "Express"
+    ports:
+      - "6666:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+  tastytrails.redis:
+    image: redis:latest
+    ports: 
+     - "6379:6379"
+    volumes:
+     - redis_vlm:/data
+volumes:
+  sql_data:
+  redis_vlm:  
