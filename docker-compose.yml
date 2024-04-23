@@ -6,8 +6,10 @@ services:
     build:
       context: .
       dockerfile: TastyTrails.API/Dockerfile
+    depends_on:
+      - tastytrails.mssql
+      - tastytrails.redis
   tastytrails.mssql:
-    container_name: TastyTrails.MSSQL_Database.DEV
     image: mcr.microsoft.com/mssql/server:2019-latest
     restart: always
     environment:
