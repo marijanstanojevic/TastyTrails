@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\TastyTrails.Common\TastyTrails.Common.csproj" />
     <ProjectReference Include="..\TastyTrails.Application\TastyTrails.Application.csproj" />
+    <ProjectReference Include="..\TastyTrails.Common\TastyTrails.Common.csproj" />
   </ItemGroup>
 
 </Project>
